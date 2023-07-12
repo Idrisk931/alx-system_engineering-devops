@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(( $(echo $WATER | tr -d 'water') + $(echo $STIR | tr -d 'stir') )) | tr -d '\n' | tr '0123456789' 'bestchol'
